@@ -1,0 +1,17 @@
+{
+    "public": true,
+    "version": 2,
+    "name": "airdrop",
+    "alias": [
+        "supermario.io"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "files": [],
+    "type": "npm",
+    "forwardNpm": false,
+    "engines": {
+        "node": "7.4.0"
+    }
+}
