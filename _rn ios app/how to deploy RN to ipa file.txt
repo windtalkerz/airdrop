@@ -1,0 +1,20 @@
+###############################
+Deploy ios app to supermario.io
+###############################
+REACT / BACKEND
+1.) yarn build
+2.) cd <project>/build
+#  upload build to ZEIT servers + link alias(supermario.io) to build
+3.) now && now alias
+
+FRONTEND React-native
+1.) expo eject -> ios projekt for xcode
+2.) expo publish -> hosts js frontend code on expo servers
+3.) open Xcode: <project>ios/xcode...workspace
+4.) pod install
+5.) Xcode -> archive 
+6.) Xcode > organiser > "Distribute App" as "Adhock" -> *.ipa file
+7.) edit Backend OTA(over the air) link to match *.ipa / manifest files
+5.) update/ deploy frontend
+
+
