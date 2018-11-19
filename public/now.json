@@ -1,9 +1,10 @@
 {
     "public": true,
     "version": 2,
-    "name": "airdrop",
+    "name": "now.json.name",
+    "description": "now.json.description",
     "alias": [
-        "supermario.io"
+        "airdrop.supermario.io"
     ],
     "env": {
         "NODE_ENV": "production"

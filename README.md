@@ -1,2 +1,4 @@
-# react-native-deployment-test
-test the deployment atomization with zeit now
+# to BUILD DEPLOY and LINK a subdomain (zeit:now alias) for your REACT website
+# powered by ZEIT now 
+# simply type in your projects console: 
+yarn deploy
