@@ -4,7 +4,7 @@
     "name": "now.json.name",
     "description": "now.json.description",
     "alias": [
-        "airdrop.supermario.io"
+        "supermario.io"
     ],
     "env": {
         "NODE_ENV": "production"
