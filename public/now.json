@@ -7,12 +7,14 @@
         "supermario.io"
     ],
     "env": {
-        "NODE_ENV": "production"
+        "NODE_ENV": "production",
+        "MONGO_URL": "exampleuser:examplepassword@mydb.com",
+        "MY_API_TOKEN": "exampletokenXXXXX"
     },
     "files": [],
     "type": "npm",
-    "forwardNpm": false,
+    "forwardNpm": true,
     "engines": {
-        "node": "7.4.0"
+        "node": "latest"
     }
 }

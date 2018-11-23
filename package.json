@@ -12,7 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "/bin/bash ./deploy.sh"
+    "deploy": "/bin/bash ./deploy.sh",
+    "inject-secrets": "/bin/bash ./inject-secrets.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
